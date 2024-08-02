@@ -1,0 +1,1441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/js_106_KoptevAnton/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jefferson*</title>
+    <meta
+      name="description"
+      content="This is a project by Team Intime (students of Group 5 at GoIT school). We created a portfolio for Lloyd Jefferson."
+    />
+    
+    <script type="module" crossorigin src="/js_106_KoptevAnton/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/js_106_KoptevAnton/assets/vendor-6cc0d0f2.js">
+    <link rel="stylesheet" href="/js_106_KoptevAnton/assets/vendor-32f6f024.css">
+    <link rel="stylesheet" href="/js_106_KoptevAnton/assets/index-dbfaa4b2.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container">
+    <div class="header-content-wrap">
+      <a href="./index.html" class="logo">
+        <img
+          srcset="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAIBAQEBAQIBAQECAgICAgQDAgICAgUEBAMEBgUGBgYFBgYGBwkIBgcJBwYGCAsICQoKCgoKBggLDAsKDAkKCgr/2wBDAQICAgICAgUDAwUKBwYHCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgr/wgARCABQAFADAREAAhEBAxEB/8QAHgAAAQUAAwEBAAAAAAAAAAAACAMEBgcJAAECBQr/xAAbAQABBQEBAAAAAAAAAAAAAAACAQMEBQYAB//aAAwDAQACEAMQAAAA1lF/w2rfuZJ0FjTKihTrTm10kcY65Od07mB4bJsnAbVXGeFTfl9ClDwTZ36PKlZMreck9mAkhJNrmZltnYsGwucDzDr7i8tVhdILnPeeGfyRRVUR4cMruIg9DrUJgk1F0WGpwpyTqhBCnMsEQVFEo/K72wHogW1OipxuQWWr87JGfVNxSYvigKt+Wt1Gtc/q3FBpM0411rtu/I5HIioIkoe4VSaFwgzskRRQ5Tow/otyRpe1evwDDl8ImRNlX5Ausxll5RedEHxm3XYEZjbx0tnrG2f5ebylplh2FsPo8T1W+KKSOdcnlC1pjyAMt6ev2JECiyuKjsgccLLjUUexVXl//8QAPhAAAQIFAgMECAQBDQAAAAAAAQIDAAQFBhEHEhMhMQhBUXEJEBQiMlJhgSNCobHRFRYXICQzNDVTVGKTwf/aAAgBAQABPwHEK6Qr4YUPGLmv+07T/DrFSCV45oRzI8/CKv2kbMpM+3KLpc64l34HGlMn9N+Yti97UvSXL1u1hp8p5uM5w4jzT1EY/qEQoR2vu0xUNIGWrVtRhDtRm2srWefBH8e+NOK9el73M3W7nbenKemop9ryzxS6pXRJGeX08oR/Kyp+bnWJZLMi6nhsIWkhbR7tg5j7YjVCfueyKnL1uQrjjczLO+7NsHgupT3hWw8/2jsr68TesFuzVKuH/N6Sva+6OQmEZwF+fcfXj1K6x2t9L5qv6hS1WlGcrWlOCU5yCMH9o0d08pdsOyzExSkth91K5te3+9UkYT5dxi/bSaS087RqcgLU2ffA5jPhGpNp1qYQ6J7c4vKwEuJzyxiOwfp/cNCqVZuWcBTJuy6WsLHNS8g5H2EEerHqMar1ej/zi2CWdm5qQlUb5VpIzlwq2AFRCcnaeWYVq/J2jLtKu7R67WU7/wDFs0pE00jHj7O4sp+4i++25prJ09+ftyQn51Eq4luYL0sZcIWRnb+Lg5x3RqT2lJGTCKvWqAuUVUpXjSbD7J/GQeQUkgEERoHrKbX0tlazdWntZYkJ+fIYqEhKpmW0ZKWwHAhW9Hv8uaYWmCMRuhSozGqumjt1PtVelzypVaVoVOlvOXktbygHbz/MRErOys8xhxlGHEc0dR5RrXp3R6eahXava/tNJmJtEwWpNLYc38NDezCinkdiemT7xjWuk2XXrFdq1z+yytXYMsmk01O8oaZQS4lsEpAUVEq3FOQnkO6NCKdVa1pXRJWbpzUvJNTPtCypYKndjm5ASB098A5Py/WFwqNwhR8IJVGsN6I080puG8lzrcuuQpL7kst3pxth4Y+pK8DEaQa7ada4WwzdFk1dpTnDHt1PUsceTc+VafPoehjVh50W4ZtHCceaP9nQ8rCd/cT9I1dbu166hK1W6KW46Gg4+3LNKwhBPQKKs9RFi22izrIpttpUD7LKpCyPm6n9TBMKiZmpSQlXZ+oTTbDDKCt595YShCR1JJ5ARWe3J2VqHVHaRN6sSzjrOd6pWUedRy8FoSQftF++lZ0nojq5SxLCqlYUn4JmaeRLNK+v51foI7QfbL1L7QjrVLq/BplC6t0aUV7vFGfeWo81nB5d0UK57osKupuKzbgm6bOtH3JiUeKFeRx1H0PKLE7ctVrEpL0fVV3eWVgmZQMBfPw6RplUXu1RrGuUtlbHsjKGVVCaddbCm2wrcdqequmBgdYfAbHDSOQGBGfV6R/X+sVC4/6D7Yn1tU+QQlytcBePaHiMhtWPypGOXzeUTku80N/RXXPhD+Sd/RWcK84l3i4gyxXgfEj6GOMp5GF/EPih0ZOYplVqtDnG6pRalMScyyrczMyrxbWg+IUnmI0/9IZ2nrDlUSD13sV6Xb+FFwSvHV/2ApcP3VGhfpQ6LdFdZtzWu1ZaiiYWENVimrUZdBP+ohZJQn/lkwy/LTkq3PSUwh5l5AWy80rclaTzBBHUGNSa5UrquOo3ZU17nahOOvPLznC1KKsGKpNnbuHd8K//AAw84FKJHfGdqsiOIch4eSoeA4e4RMgI2JHhzhtvf0ELZwT5x6OTtWztEr7PZ9v+qlynTy9tuTL68mWf/wBvk/kV3eCvOKjNFSHHU9yCFJPRwfxirMtyieMw8HpZ5OMnqg/Kr6iF/EY6n7Q1zSUHvEI96UWD1GP3h1W96GuqR9YfUTMqA+0Sb03IzjU9IPraeZcStl1s4UhQOQQfHMf/xAAhEAEAAwABBAMBAQAAAAAAAAABABEhMUFRYXEQgaGRsf/aAAgBAQABPxAxBuc0QtUZSwJ6q0KsPskCf4rjfmYKLwCpe9/Sqj8Hhh25nIMusqNb8K3cGvYEbi8XZNjQgVQAx1mYPsKUWgt1a5VW8hYeVOMUgJdl2h6alArX8RQwwKIBXD8VLEYNTGfmrsW4BbjYAL2dJO8KE6rBic99Po+oxRVDVJA8mf7DI73iy9GrL2ELT8UjyxDlxudeBJrwS2DREuF11WmRlPeLqqt1S0Fiu+6q6AA8oyyxfskiuVWm2B/fhmKGVYRIWsNaL9QsQZbKeEhw4tVA1uLMRHWXGmyIW+WIWiNHKkA4gejagljbm/Iq7d+wC7DQA0mhK4+OESlHwHzhECJiKYF1LHTUTC+Qtg29qMGQm3bfWCgaWhe2xhM5PO1O6TDawI64VeL4/FlfAryATgCoq4AFqtEGXmq/I+xZIp/K7MYpp9ybJG9SAOtIti8JwjF1r25T8NyMRnDJ5/8AJKD1xDFSiJNO7VgCtg0Qb0kXoMuKmnS67Fqk9a3TSkWKLr+0uOEhP14v/YvpATtxTvRq2stUQ7Ju4LIJ5GZIAzHz988dtSWavcIZlnrCOsxAIiNJHc7D6xdwU54IheJRyft4fpmYJ0dpd04pPTEPHVRz745F+zscYFZVuEp+S4/+jKBYzevgO1ILuPhz2Howe4wDZyHRNHrAgLdQxPAlPEC5XljCzewRZGERvRp3jSrogwTQApNsuf/EACsRAAEDAwQABQMFAAAAAAAAAAEAAgMEESEFEBIxE0FRYbEGgdEVIDJxof/aAAgBAgEBPwABdHeatp6c2cc+y/VoC63EqKeGcXYf2uFtqyocJPCYbepUz4YhdCRhBUEg52abFUdQZm8Xdj/dx0nDG2qAxVLj5GyhDXuaH9KvhMJJiCgnzcrSeUj3P8gLbgkBE2G2s1VOKkRuOQBf2vchQwQmHkSMeuPlVMUsrw1ls+9/i6g0uWd54C+crTKd0EJYT57231/SpKl4qIex/L7Xt+FHI2Rg5DsdKrLo3h1w0DCZUhjmCPoXv9+z+Fppa6kBHv8AKt3sF3s1nM8QqmF9NJxfhahxeByOAoREGk2PtlUkIp6dsfoNwhHJbpCEnsqNjYypYY5mFjxcLVfp2YO50xuPRUeiVQDfEFsroWQxtBEA3mj0igb4QNwivJGNpRjsMbEcWWCJRKB2PWwGFZSMtchOKcAP627KC7GwV8rjdf/EAC0RAAEDAwMDAwIHAQAAAAAAAAEAAhEDBCEFEjEQQVEGE3FSYRQgIjKBkbHR/9oACAEDAQE/APyW9jc3Ilgx5KGiXIZO4KtbV7cw8R1CnrYWbTS954nOArahWrHaMBGjUYc9lcUyWSRIV/aii7czg9B0HTQnMq2oH0kqs59MOcw5jC0yqLgRVKuLQbCAtaDaLBS7zKGekBDp6f0m+Omm6aBtcTGcnbAP+qtcV21S3a7PgT/hKsPaDC584McRnxmFcatb2jIe6DGBmSFrVcVrrdHYLPUdPSPqKlY0H2VyJB/Z9txG7nHYEJ9F9GoQ0zBwf5WmODg5oBcTnt4jv8J1gS2oasbnQR8tOB/35WuADUniI4QTeg6F3tjf4VjXZd0tzCtMLqe4NHKuX0Pw8Mf+rvIM/wBzCvbh11ePqnuV2QwhgL3qXlG4HYKrUfVVtXrW7t9MwfstE9U2z2bLsbXfV2KvvUdkWvbSO7GFk5WEVdVSXbAmkQU3hbQMqEzhDBlCo4JtQHlBA7nEpoTAhkKMEJnKZmSi4hNcqT5wUEwz8pvC4CPMqIem4YvKbhkrcAv/2Q== 1x, /js_106_KoptevAnton/assets/logo@2x-a33cd0c0.jpg 2x, /js_106_KoptevAnton/assets/logo@3x-50e059a0.jpg 3x"
+          src="./img/logo.jpg"
+          class="logo-img"
+          alt="Lloyd Jefferson"
+        />
+        <span class="logo-text">jefferson&ast;</span>
+      </a>
+      <div class="menu">
+        <button class="menu-btn">Menu</button>
+        <ul class="menu-list">
+          <li class="menu-item">
+            <a class="menu-link" href="#about-me">About me</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-link" href="#benefits">Benefits</a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-link" href="#projects">Projects</a>
+          </li>
+          <li class="menu-item"><a class="menu-link" href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <button class="mobile-menu-btn">
+        <svg class="open-menu-mob">
+          <use href="/js_106_KoptevAnton/assets/icons-1527bb08.svg#burger" class="open-menu-mob-icon"></use>
+        </svg>
+      </button>
+      <a href="#work-together" class="order-btn">Order the project</a>
+    </div>
+  </div>
+</header>
+<div class="modal">
+  <div class="mobile-menu-wrap">
+    <div class="container">
+      <button class="close-menu-btn">
+        <svg class="close-menu">
+          <use href="/js_106_KoptevAnton/assets/icons-1527bb08.svg#close" class="close-icon"></use>
+        </svg>
+      </button>
+      <ul class="mobile-menu-list">
+        <li class="menu-item">
+          <a class="menu-link" href="#about-me">About me</a>
+        </li>
+        <li class="menu-item">
+          <a class="menu-link" href="#benefits">Benefits</a>
+        </li>
+        <li class="menu-item">
+          <a class="menu-link" href="#projects">Projects</a>
+        </li>
+        <li class="menu-item"><a class="menu-link" href="#faq">FAQ</a></li>
+      </ul>
+      <a class="order" href="#work-together">Order the project</a>
+    </div>
+  </div>
+</div>
+<div class="change-color-button-wrapper">
+  <button type="button" class="change-color-btn">Change theme</button>
+</div>
+<div class="change-color-wrapper">
+  <div class="change-color">
+    <ul class="theme-colors">
+      <li data-theme="red" class="red-theme-option color-option"></li>
+      <li data-theme="lime" class="lime-theme-option color-option"></li>
+      <li data-theme="blue" class="blue-theme-option color-option"></li>
+      <li data-theme="pink" class="pink-theme-option color-option"></li>
+      <li
+        data-theme="aquamarine"
+        class="aquamarine-theme-option color-option"
+      ></li>
+      <li data-theme="orange" class="orange-theme-option color-option"></li>
+    </ul>
+  </div>
+</div>
+
+    <main>
+      <section class="hero section-hero container" id="hero">
+  <div class="container">
+    <h1 class="logo-lloyd-hero">
+      Hello.<br />
+      <span class="h1-animation">I’m</span> 
+      <span class="h1-animation">Fullstack</span> 
+      <span class="h1-animation">developer</span>
+      <span class="h1-animation">Lloyd Jefferson.</span>
+    </h1>
+    <ul class="ul-hero">
+      <li class="li-hero">
+        <a
+          class="link-hero"
+          href="https://www.instagram.com/goitclub/"
+          target="_blank"
+          aria-label="Instagram account link"
+          >IG</a
+        >
+      </li>
+      <li class="li-hero">
+        <a
+          class="link-hero"
+          href="https://www.facebook.com/goITclub/"
+          target="_blank"
+          aria-label="Facebook account link"
+          >FB</a
+        >
+      </li>
+      <li class="li-hero">
+        <a
+          class="link-hero"
+          href="https://www.youtube.com/c/GoIT"
+          target="_blank"
+          aria-label="YouTube account link"
+          >YT</a
+        >
+      </li>
+      <li class="li-hero">
+        <a
+          class="link-hero"
+          href="https://github.com/KoptevAnton/lloydjefferson.site"
+          target="_blank"
+          aria-label="GitHub rep link"
+          >GH</a
+        >
+      </li>
+      <li class="li-hero li-hero-email">
+        <a
+          class="link-hero-email"
+          href="mailto:lloydjefferson@gmail.com"
+          target="_blank"
+          aria-label="contact email"
+          >lloydjefferson@gmail.com</a
+        >
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="about-me section-margin" id="about-me">
+  <div class="container about-conteiner">
+    <h2 class="visually-hidden">About me</h2>
+    <ul class="about-me-header">
+      <li class="aboutme-header-list">
+        <h3 class="aboutme-title">
+          I work with people all over the world to create impressive and
+          <span class="word-functional">functional</span>
+          <span class="word-websites">websites</span> that reflect each client's
+          unique personality.
+        </h3>
+      </li>
+      <li class="aboutme-header-list photo">
+        <picture>
+          <source
+            media="(min-width: 1440px)"
+            srcset="/js_106_KoptevAnton/assets/photo-desktop-63325dfd.webp 1x, /js_106_KoptevAnton/assets/photo-desktop@2x-43757712.webp 2x, /js_106_KoptevAnton/assets/photo-desktop@3x-194bfa77.webp 3x"
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 1440px)"
+            srcset="/js_106_KoptevAnton/assets/photo-desktop-50b5366e.jpg 1x, /js_106_KoptevAnton/assets/photo-desktop@2x-2f7b60cf.jpg 2x, /js_106_KoptevAnton/assets/photo-desktop@3x-f696644d.jpg 3x"
+            type="image/jpg"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/js_106_KoptevAnton/assets/photo-tablet-8ebef512.webp 1x, /js_106_KoptevAnton/assets/photo-tablet@2x-47859481.webp 2x, /js_106_KoptevAnton/assets/photo-tablet@3x-b3e9e3b0.webp 3x"
+            type="image/webp"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/js_106_KoptevAnton/assets/photo-tablet-006ed061.jpg 1x, /js_106_KoptevAnton/assets/photo-tablet@2x-add1c9ab.jpg 2x, /js_106_KoptevAnton/assets/photo-tablet@3x-13db2d2c.jpg 3x"
+            type="image/jpg"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/photo-mobile-1f9bddda.webp 1x, /js_106_KoptevAnton/assets/photo-mobile@2x-0cc4dda4.webp 2x, /js_106_KoptevAnton/assets/photo-mobile@3x-caa1bc9c.webp 3x"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/photo-mobile-94d5b47a.jpg 1x, /js_106_KoptevAnton/assets/photo-mobile@2x-4c68a243.jpg 2x, /js_106_KoptevAnton/assets/photo-mobile@3x-35b80f3f.jpg 3x"
+            type="image/jpg"
+          />
+          <img
+            src="/js_106_KoptevAnton/assets/photo-desktop-50b5366e.jpg"
+            alt="Lloyd Jefferson"
+            class="about-me-img"
+            data-name="lloyd-jefferson"
+            loading="lazy"
+          />
+        </picture>
+      </li>
+    </ul>
+    <ul class="aboutme-accordion-container">
+      <li class="aboutme-accordion-list">
+        <h3 class="about-me-subtitle aboutme-header-item">
+          About me
+          <button
+            type="button"
+            class="aboutme-accordion-btn"
+            aria-label="Open information"
+          >
+            <svg class="aboutme-item-icon" width="20px" height="20px">
+              <use href="/js_106_KoptevAnton/assets/icons-1527bb08.svg#collapse"></use>
+            </svg>
+          </button>
+        </h3>
+        <div class="aboutme-accordion-text text-line">
+          <p class="aboutme-item-text">
+            I am Lloyd Jefferson, a talented programmer with extensive expertise
+            in software development. I have an understanding of different
+            programming languages ​​and technologies, always ready to improve my
+            skills. I always follow the latest trends and look for
+            unconventional, creative solutions to problems. I have a high level
+            of analytical skills and am able to effectively solve even the most
+            difficult tasks encountered on the way.
+          </p>
+          <p class="aboutme-item-text">
+            Able to work both independently and in a team. I can effectively
+            cooperate with colleagues, exchanging ideas and finding optimal
+            solutions. Professional maturity allows you to calmly cope with
+            challenges and stressful situations, while maintaining a high
+            quality of work. I am always looking for opportunities for
+            self-improvement. I actively study new technologies and practices to
+            stay abreast of the latest innovations. I have a strong
+            understanding of various programming languages, frameworks and
+            architectural concepts that allow me to create efficient and
+            scalable software.
+          </p>
+        </div>
+      </li>
+      <li class="aboutme-accordion-list">
+        <h3 class="about-me-subtitle aboutme-header-item">
+          Role
+          <button
+            type="button"
+            class="aboutme-accordion-btn"
+            aria-label="Open information"
+          >
+            <svg class="aboutme-item-icon" width="20px" height="20px">
+              <use href="/js_106_KoptevAnton/assets/icons-1527bb08.svg#expand"></use>
+            </svg>
+          </button>
+        </h3>
+
+        <ul class="aboutme-accordion-text text-role-education">
+          <li class="aboutme-item-text">Frontend development</li>
+          <li class="aboutme-item-text">HeadlessCMS,Wordpress</li>
+          <li class="aboutme-item-text">Blender(enjoy)</li>
+        </ul>
+      </li>
+
+      <li class="aboutme-accordion-list">
+        <h3 class="about-me-subtitle aboutme-header-item">
+          Education
+          <button
+            type="button"
+            class="aboutme-accordion-btn"
+            aria-label="Open information"
+          >
+            <svg class="aboutme-item-icon" width="20px" height="20px">
+              <use href="/js_106_KoptevAnton/assets/icons-1527bb08.svg#expand"></use>
+            </svg>
+          </button>
+        </h3>
+        <ul class="aboutme-accordion-text text-role-education">
+          <li class="aboutme-item-text">
+            2018 - 2019 / Frontend Development Diploma, GoIT IT School, New York
+          </li>
+          <li class="aboutme-item-text">
+            2019 - 2020 / Advanced Web Development Certificate, GoIT IT School,
+            New York
+          </li>
+          <li class="aboutme-item-text">
+            2020 - 2022 / Advanced Blender Animation Techniques, Udemy
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <div class="about-me-swiper-conteiner">
+      <div class="about-me-swiper">
+        <ul
+          class="aboutme-swiper-wrapper swiper-wrapper animation-left animated-element"
+        >
+          <li class="swiper-element swiper-slide">
+            <div class="swiper-icon">HTML/CSS</div>
+          </li>
+          <li class="swiper-element swiper-slide">
+            <div class="swiper-icon">JavaScript</div>
+          </li>
+          <li class="swiper-element swiper-slide">
+            <div class="swiper-icon">React</div>
+          </li>
+          <li class="swiper-element swiper-slide">
+            <div class="swiper-icon">Node.js</div>
+          </li>
+          <li class="swiper-element swiper-slide">
+            <div class="swiper-icon">React Native</div>
+          </li>
+          <li class="swiper-element swiper-slide">
+            <div class="swiper-icon">Soft skills</div>
+          </li>
+          <!-- loop -->
+          <li class="swiper-element swiper-slide">
+            <div class="swiper-icon">HTML/CSS</div>
+          </li>
+          <li class="swiper-element swiper-slide">
+            <div class="swiper-icon">JavaScript</div>
+          </li>
+          <li class="swiper-element swiper-slide">
+            <div class="swiper-icon">React</div>
+          </li>
+          <li class="swiper-element swiper-slide">
+            <div class="swiper-icon">Node.js</div>
+          </li>
+          <li class="swiper-element swiper-slide">
+            <div class="swiper-icon">React Native</div>
+          </li>
+          <li class="swiper-element swiper-slide">
+            <div class="swiper-icon">Soft skills</div>
+          </li>
+        </ul>
+      </div>
+      <button
+        type="button"
+        class="btn-aboutswiper-next"
+        aria-label="Swipe slider"
+      >
+        <svg class="aboutme-icon">
+          <use href="/js_106_KoptevAnton/assets/icons-1527bb08.svg#arrow-right"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+      <section class="benefits section-margin" id="benefits">
+  <div class="container">
+    <div class="benefits-container">
+      <h2 class="benefits-title">Benefits of working with me</h2>
+      <div class="benefits-content">
+        <ul class="benefits-list">
+          <li class="benefits-item">
+            <div class="benefits-wrap">
+              <svg class="benefits-icon" width="24" height="24">
+                <use href="/js_106_KoptevAnton/assets/icons-1527bb08.svg#user"></use>
+              </svg>
+            </div>
+
+            <h3 class="benefits-subtitle">Expertise</h3>
+            <p class="benefits-text">
+              As a highly experienced developer, I have deep knowledge of
+              programming and website development.
+            </p>
+          </li>
+          <li class="benefits-item">
+            <div class="benefits-wrap">
+              <svg class="benefits-icon" width="24" height="24">
+                <use href="/js_106_KoptevAnton/assets/icons-1527bb08.svg#message-chat"></use>
+              </svg>
+            </div>
+
+            <h3 class="benefits-subtitle">Communication</h3>
+            <p class="benefits-text">
+              Understanding your needs and wants is my priority and I am always
+              open to discussions and corrections.
+            </p>
+          </li>
+          <li class="benefits-item">
+            <div class="benefits-wrap">
+              <svg class="benefits-icon" width="24" height="24">
+                <use href="/js_106_KoptevAnton/assets/icons-1527bb08.svg#brush"></use>
+              </svg>
+            </div>
+
+            <h3 class="benefits-subtitle">Art</h3>
+            <p class="benefits-text">
+              Thanks to my creative nature, I am ready to accept challenges and
+              help you bring your ideas to life.
+            </p>
+          </li>
+          <li class="benefits-item">
+            <div class="benefits-wrap">
+              <svg class="benefits-icon" width="24" height="24">
+                <use href="/js_106_KoptevAnton/assets/icons-1527bb08.svg#hourglass"></use>
+              </svg>
+            </div>
+
+            <h3 class="benefits-subtitle">Urgent execution</h3>
+            <p class="benefits-text">
+              I understand how important time is to you. Ready to work quickly
+              and efficiently, without reducing the quality of work.
+            </p>
+          </li>
+        </ul>
+        <a href="#work-together" class="benefits-button"> Order the project </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section id="projects" class="section-margin">
+  <div class="container">
+    <h2 class="projects__title">Projects</h2>
+    <div class="projects__swiper-container">
+      <ul class="projects__swiper-wrapper swiper-wrapper">
+        <li class="projects__swiper-slide swiper-slide">
+          <div class="projects__content projects__content--light">
+            <ul class="projects__tech-list">
+              <li class="projects__tech-item">#react</li>
+              <li class="projects__tech-item">#js</li>
+              <li class="projects__tech-item">#node js</li>
+              <li class="projects__tech-item">#git</li>
+            </ul>
+            <h3 class="projects__slide-title">
+              Programming Across Borders: Ideas, Technologies, Innovations
+            </h3>
+
+            <a
+              href="https://github.com/KoptevAnton/lloydjefferson.site"
+              class="projects__link"
+              target="_blank"
+              >See project</a
+            >
+          </div>
+          <div class="projects__content projects__content--dark">
+            <picture>
+              <source
+                srcset="/js_106_KoptevAnton/assets/projects_1_1x-feee443a.webp 1x, /js_106_KoptevAnton/assets/projects_1_2x-b53beaf7.webp 2x, /js_106_KoptevAnton/assets/projects_1_3x-478277e5.webp 3x"
+                media="(min-width: 768px)"
+                type="image/webp"
+              />
+
+              <source
+                srcset="/js_106_KoptevAnton/assets/projects_1_1x-e4b27278.jpg 1x, /js_106_KoptevAnton/assets/projects_1_2x-19e8cc84.jpg 2x, /js_106_KoptevAnton/assets/projects_1_3x-40bf6464.jpg 3x"
+                media="(min-width: 768px)"
+                type="image/jpg"
+              />
+
+              <source
+                srcset="/js_106_KoptevAnton/assets/projects-mobile_1_1x-7aa14bd5.webp 1x, /js_106_KoptevAnton/assets/projects-mobile_1_2x-6c6792a1.webp 2x, /js_106_KoptevAnton/assets/projects-mobile_1_3x-fc7d146b.webp 3x"
+                type="image/webp"
+              />
+
+              <source
+                srcset="/js_106_KoptevAnton/assets/projects-mobile_1_1x-229d6b69.jpg 1x, /js_106_KoptevAnton/assets/projects-mobile_1_2x-581e056a.jpg 2x, /js_106_KoptevAnton/assets/projects-mobile_1_3x-0348373a.jpg 3x"
+                type="image/jpg"
+              />
+
+              <img
+                src="/js_106_KoptevAnton/assets/projects_1_1x-e4b27278.jpg"
+                alt="read journey"
+                class="projects-img"
+                loading="lazy"
+              />
+            </picture>
+          </div>
+        </li>
+        <li class="projects__swiper-slide swiper-slide">
+          <div class="projects__content projects__content--light">
+            <ul class="projects__tech-list">
+              <li class="projects__tech-item">#react</li>
+              <li class="projects__tech-item">#js</li>
+              <li class="projects__tech-item">#node js</li>
+              <li class="projects__tech-item">#git</li>
+            </ul>
+            <h3 class="projects__slide-title">
+              Programming Across Borders: Ideas, Technologies, Innovations
+            </h3>
+
+            <a
+              href="https://github.com/KoptevAnton/lloydjefferson.site"
+              class="projects__link"
+              target="_blank"
+              >See project</a
+            >
+          </div>
+          <div class="projects__content projects__content--dark">
+            <picture>
+              <source
+                srcset="/js_106_KoptevAnton/assets/projects_2_1x-7f921fa7.webp 1x, /js_106_KoptevAnton/assets/projects_2_2x-29d6af6b.webp 2x, /js_106_KoptevAnton/assets/projects_2_3x-031100a1.webp 3x"
+                media="(min-width: 768px)"
+                type="image/webp"
+              />
+
+              <source
+                srcset="/js_106_KoptevAnton/assets/projects_2_1x-268d04ab.jpg 1x, /js_106_KoptevAnton/assets/projects_2_2x-29f54e3b.jpg 2x, /js_106_KoptevAnton/assets/projects_2_3x-44a3f9a2.jpg 3x"
+                media="(min-width: 768px)"
+                type="image/jpg"
+              />
+
+              <source
+                srcset="/js_106_KoptevAnton/assets/projects-mobile_2_1x-5a581404.webp 1x, /js_106_KoptevAnton/assets/projects-mobile_2_2x-7a4df747.webp 2x, /js_106_KoptevAnton/assets/projects-mobile_2_3x-8a3530a6.webp 3x"
+                type="image/webp"
+              />
+
+              <source
+                srcset="/js_106_KoptevAnton/assets/projects-mobile_2_1x-68d93b0f.jpg 1x, /js_106_KoptevAnton/assets/projects-mobile_2_2x-eda16b10.jpg 2x, /js_106_KoptevAnton/assets/projects-mobile_2_3x-50e384f8.jpg 3x"
+                type="image/jpg"
+              />
+
+              <img
+                src="/js_106_KoptevAnton/assets/projects_2_1x-268d04ab.jpg"
+                alt="petlove"
+                class="projects-img"
+                loading="lazy"
+              />
+            </picture>
+          </div>
+        </li>
+        <li class="projects__swiper-slide swiper-slide">
+          <div class="projects__content projects__content--light">
+            <ul class="projects__tech-list">
+              <li class="projects__tech-item">#react</li>
+              <li class="projects__tech-item">#js</li>
+              <li class="projects__tech-item">#node js</li>
+              <li class="projects__tech-item">#git</li>
+            </ul>
+            <h3 class="projects__slide-title">
+              Programming Across Borders: Ideas, Technologies, Innovations
+            </h3>
+
+            <a
+              href="https://github.com/KoptevAnton/lloydjefferson.site"
+              class="projects__link"
+              target="_blank"
+              >See project</a
+            >
+          </div>
+          <div class="projects__content projects__content--dark">
+            <picture>
+              <source
+                srcset="/js_106_KoptevAnton/assets/projects_3_1x-fdfb68de.webp 1x, /js_106_KoptevAnton/assets/projects_3_2x-26c35466.webp 2x, /js_106_KoptevAnton/assets/projects_3_3x-fb5bd14c.webp 3x"
+                media="(min-width: 768px)"
+                type="image/webp"
+              />
+
+              <source
+                srcset="/js_106_KoptevAnton/assets/projects_3_1x-2f8d64fb.jpg 1x, /js_106_KoptevAnton/assets/projects_3_2x-8b0b91a2.jpg 2x, /js_106_KoptevAnton/assets/projects_3_3x-00eee646.jpg 3x"
+                media="(min-width: 768px)"
+                type="image/jpg"
+              />
+
+              <source
+                srcset="data:image/webp;base64,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 1x, /js_106_KoptevAnton/assets/projects-mobile_3_2x-b7a31744.webp 2x, /js_106_KoptevAnton/assets/projects-mobile_3_3x-4a23e54e.webp 3x"
+                type="image/webp"
+              />
+
+              <source
+                srcset="/js_106_KoptevAnton/assets/projects-mobile_3_1x-44a58ae1.jpg 1x, /js_106_KoptevAnton/assets/projects-mobile_3_2x-7f6b788d.jpg 2x, /js_106_KoptevAnton/assets/projects-mobile_3_3x-9649d2da.jpg 3x"
+                type="image/jpg"
+              />
+
+              <img
+                src="/js_106_KoptevAnton/assets/projects_3_1x-2f8d64fb.jpg"
+                alt="VocabBuilder"
+                class="projects-img"
+                loading="lazy"
+              />
+            </picture>
+          </div>
+        </li>
+      </ul>
+      <div class="projects__button-wrapper">
+        <button
+          type="button"
+          class="projects__button projects__button--prev-js"
+          aria-label="Swipe to the previous slide"
+        >
+          <svg class="projects__button-icon">
+            <use href="/js_106_KoptevAnton/assets/icons-1527bb08.svg#arrow-left"></use>
+          </svg>
+        </button>
+        <button
+          type="button"
+          class="projects__button projects__button--next-js"
+          aria-label="Swipe to the next slide"
+        >
+          <svg class="projects__button-icon">
+            <use href="/js_106_KoptevAnton/assets/icons-1527bb08.svg#arrow-right"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="faq" id="faq">
+  <div class="container">
+    <h2 class="title-faq">FAQ</h2>
+    <ul class="faq-list-ul">
+      <li class="list-faq">
+        <h3 class="title-list">
+          What programming languages are most often used in your project?
+          <button class="toggle-btn" aria-expanded="false">
+            <svg class="icon icon-open" width="20" height="20">
+              <use href="/js_106_KoptevAnton/assets/icons-1527bb08.svg#expand"></use>
+            </svg>
+            <svg class="icon icon-close" width="20" height="20">
+              <use href="/js_106_KoptevAnton/assets/icons-1527bb08.svg#collapse"></use>
+            </svg>
+          </button>
+        </h3>
+        <p class="text-faq">
+          In the field of web development, there are various technologies and
+          programming languages. Typically, this includes a combination of
+          frontend (client side) and backend (server side) languages.
+        </p>
+      </li>
+      <li class="list-faq">
+        <h3 class="title-list">
+          What are the deadlines for the project?
+          <button class="toggle-btn" aria-expanded="false">
+            <svg class="icon icon-open" width="20" height="20">
+              <use href="/js_106_KoptevAnton/assets/icons-1527bb08.svg#expand"></use>
+            </svg>
+            <svg class="icon icon-close" width="20" height="20">
+              <use href="/js_106_KoptevAnton/assets/icons-1527bb08.svg#collapse"></use>
+            </svg>
+          </button>
+        </h3>
+        <p class="text-faq">
+          The terms of project implementation depend to a large extent on a
+          number of factors, such as the scope of the project, its complexity,
+          and the availability of resources. Determining exact deadlines is a
+          difficult task, and it usually occurs during the planning phase of the
+          project.
+        </p>
+      </li>
+      <li class="list-faq">
+        <h3 class="title-list">
+          What payment methods do you accept?
+          <button class="toggle-btn" aria-expanded="false">
+            <svg class="icon icon-open" width="20" height="20">
+              <use href="/js_106_KoptevAnton/assets/icons-1527bb08.svg#expand"></use>
+            </svg>
+            <svg class="icon icon-close" width="20" height="20">
+              <use href="/js_106_KoptevAnton/assets/icons-1527bb08.svg#collapse"></use>
+            </svg>
+          </button>
+        </h3>
+        <p class="text-faq">
+          Payment through credit and debit cards such as Visa, MasterCard,
+          specialized electronic payment systems such as PayPal, as well as
+          payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+        </p>
+      </li>
+      <li class="list-faq">
+        <h3 class="title-list">
+          How can I contact you?
+          <button class="toggle-btn" aria-expanded="false">
+            <svg class="icon icon-open" width="20" height="20">
+              <use href="/js_106_KoptevAnton/assets/icons-1527bb08.svg#expand"></use>
+            </svg>
+            <svg class="icon icon-close" width="20" height="20">
+              <use href="/js_106_KoptevAnton/assets/icons-1527bb08.svg#collapse"></use>
+            </svg>
+          </button>
+        </h3>
+        <p class="text-faq">
+          In the field of web development, there are various technologies and
+          programming languages. Typically, this includes a combination of
+          frontend (client side) and backend (server side) languages.
+        </p>
+      </li>
+      <li class="list-faq">
+        <h3 class="title-list">
+          Do you provide advice or support?
+          <button class="toggle-btn" aria-expanded="false">
+            <svg class="icon icon-open" width="20" height="20">
+              <use href="/js_106_KoptevAnton/assets/icons-1527bb08.svg#expand"></use>
+            </svg>
+            <svg class="icon icon-close" width="20" height="20">
+              <use href="/js_106_KoptevAnton/assets/icons-1527bb08.svg#collapse"></use>
+            </svg>
+          </button>
+        </h3>
+        <p class="text-faq">
+          The terms of project implementation depend to a large extent on a
+          number of factors, such as the scope of the project, its complexity,
+          and the availability of resources. Determining exact deadlines is a
+          difficult task, and it usually occurs during the planning phase of the
+          project.
+        </p>
+      </li>
+      <li class="list-faq">
+        <h3 class="title-list">
+          What does the process of developing a software product look like from
+          idea to implementation?
+          <button class="toggle-btn last" aria-expanded="false">
+            <svg class="icon icon-open" width="20" height="20">
+              <use href="/js_106_KoptevAnton/assets/icons-1527bb08.svg#expand"></use>
+            </svg>
+            <svg class="icon icon-close" width="20" height="20">
+              <use href="/js_106_KoptevAnton/assets/icons-1527bb08.svg#collapse"></use>
+            </svg>
+          </button>
+        </h3>
+        <p class="text-faq">
+          Payment through credit and debit cards such as Visa, MasterCard,
+          specialized electronic payment systems such as PayPal, as well as
+          payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="covers container section-margin" id="covers">
+  <h2 class="visually-hidden">Covers</h2>
+  <div class="covers-background">
+    <div class="covers-spot covers-spot-1"></div>
+    <div class="covers-spot covers-spot-2"></div>
+    <div class="covers-spot covers-spot-3"></div>
+  </div>
+  <div class="covers-wrapper">
+    <ul class="covers-line">
+      <li class="covers-item">
+        <picture>
+          <source
+            srcset="/js_106_KoptevAnton/assets/chego-jewelry-desktop-91f9cf80.webp 1x, /js_106_KoptevAnton/assets/chego-jewelry-desktop@2x-031cbfa1.webp 2x, /js_106_KoptevAnton/assets/chego-jewelry-desktop@3x-dc788892.webp 3x"
+            media="(min-width: 768px)"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/chego-jewelry-desktop-309165bd.jpg 1x, /js_106_KoptevAnton/assets/chego-jewelry-desktop@2x-02042292.jpg 2x, /js_106_KoptevAnton/assets/chego-jewelry-desktop@3x-7e1c1be5.jpg 3x"
+            media="(min-width: 768px)"
+            type="image/jpg"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/chego-jewelry-mobile-1a814c4d.webp 1x, /js_106_KoptevAnton/assets/chego-jewelry-mobile@2x-682811ca.webp 2x, /js_106_KoptevAnton/assets/chego-jewelry-mobile@3x-a189c9a1.webp 3x"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/chego-jewelry-mobile-7c8d95ee.jpg 1x, /js_106_KoptevAnton/assets/chego-jewelry-mobile@2x-f598caec.jpg 2x, /js_106_KoptevAnton/assets/chego-jewelry-mobile@3x-3f8c9fe3.jpg 3x"
+            type="image/jpg"
+          />
+          <img
+            src="/js_106_KoptevAnton/assets/chego-jewelry-desktop-309165bd.jpg"
+            alt="Chego Jewelry"
+            class="covers-image"
+            data-name="chego-jewelry"
+            loading="lazy"
+          />
+        </picture>
+      </li>
+      <li class="covers-item">
+        <picture>
+          <source
+            srcset="/js_106_KoptevAnton/assets/energyflow-desktop-68c84011.webp 1x, /js_106_KoptevAnton/assets/energyflow-desktop@2x-6148bcce.webp 2x, /js_106_KoptevAnton/assets/energyflow-desktop@3x-920ad753.webp 3x"
+            media="(min-width: 768px)"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/energyflow-desktop-a3d4d378.jpg 1x, /js_106_KoptevAnton/assets/energyflow-desktop@2x-dd0e9a19.jpg 2x, /js_106_KoptevAnton/assets/energyflow-desktop@3x-8e4add26.jpg 3x"
+            media="(min-width: 768px)"
+            type="image/jpg"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/energyflow-mobile-203462a6.webp 1x, /js_106_KoptevAnton/assets/energyflow-mobile@2x-46a40711.webp 2x, /js_106_KoptevAnton/assets/energyflow-mobile@3x-47a1ff6c.webp 3x"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/energyflow-mobile-4d97b6c5.jpg 1x, /js_106_KoptevAnton/assets/energyflow-mobile@2x-d4d9e0a8.jpg 2x, /js_106_KoptevAnton/assets/energyflow-mobile@3x-c76316c2.jpg 3x"
+            type="image/jpg"
+          />
+          <img
+            src="/js_106_KoptevAnton/assets/energyflow-desktop-a3d4d378.jpg"
+            alt="Energy Flow"
+            class="covers-image"
+            data-name="energyflow"
+            loading="lazy"
+          />
+        </picture>
+      </li>
+      <li class="covers-item">
+        <picture>
+          <source
+            srcset="/js_106_KoptevAnton/assets/fruitbox-desktop-da98793b.webp 1x, /js_106_KoptevAnton/assets/fruitbox-desktop@2x-61fe59e6.webp 2x, /js_106_KoptevAnton/assets/fruitbox-desktop@3x-8da2a985.webp 3x"
+            media="(min-width: 768px)"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/fruitbox-desktop-69a03579.jpg 1x, /js_106_KoptevAnton/assets/fruitbox-desktop@2x-8cea7391.jpg 2x, /js_106_KoptevAnton/assets/fruitbox-desktop@3x-dd5bad39.jpg 3x"
+            media="(min-width: 768px)"
+            type="image/jpg"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/fruitbox-mobile-b867a911.webp 1x, /js_106_KoptevAnton/assets/fruitbox-mobile@2x-8c5d0df0.webp 2x, /js_106_KoptevAnton/assets/fruitbox-mobile@3x-466c1a1f.webp 3x"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/fruitbox-mobile-63b154ab.jpg 1x, /js_106_KoptevAnton/assets/fruitbox-mobile@2x-f8221976.jpg 2x, /js_106_KoptevAnton/assets/fruitbox-mobile@3x-e37b869d.jpg 3x"
+            type="image/jpg"
+          />
+          <img
+            src="/js_106_KoptevAnton/assets/fruitbox-desktop-69a03579.jpg"
+            alt="Fruit Box"
+            class="covers-image"
+            data-name="fruitbox"
+            loading="lazy"
+          />
+        </picture>
+      </li>
+      <li class="covers-item">
+        <picture>
+          <source
+            srcset="/js_106_KoptevAnton/assets/englishexcellence-desktop-a6f2c4e7.webp 1x, /js_106_KoptevAnton/assets/englishexcellence-desktop@2x-4046de45.webp 2x, /js_106_KoptevAnton/assets/englishexcellence-desktop@3x-9f6fecd6.webp 3x"
+            media="(min-width: 768px)"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/englishexcellence-desktop-55c2611d.jpg 1x, /js_106_KoptevAnton/assets/englishexcellence-desktop@2x-bdc0c5c2.jpg 2x, /js_106_KoptevAnton/assets/englishexcellence-desktop@3x-7afb9a53.jpg 3x"
+            media="(min-width: 768px)"
+            type="image/jpg"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/englishexcellence-mobile-043579d7.webp 1x, /js_106_KoptevAnton/assets/englishexcellence-mobile@2x-89c2db4a.webp 2x, /js_106_KoptevAnton/assets/englishexcellence-mobile@3x-d8d8cd94.webp 3x"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/englishexcellence-mobile-e741966b.jpg 1x, /js_106_KoptevAnton/assets/englishexcellence-mobile@2x-d2615c30.jpg 2x, /js_106_KoptevAnton/assets/englishexcellence-mobile@3x-c0fbb78a.jpg 3x"
+            type="image/jpg"
+          />
+          <img
+            src="/js_106_KoptevAnton/assets/englishexcellence-desktop-55c2611d.jpg"
+            alt="English Excellence"
+            class="covers-image"
+            data-name="englishexcellence"
+            loading="lazy"
+          />
+        </picture>
+      </li>
+      <li class="covers-item">
+        <picture>
+          <source
+            srcset="/js_106_KoptevAnton/assets/starlightstudio-desktop-5c1a4ba7.webp 1x, /js_106_KoptevAnton/assets/starlightstudio-desktop@2x-bf1bba80.webp 2x, /js_106_KoptevAnton/assets/starlightstudio-desktop@3x-3d927374.webp 3x"
+            media="(min-width: 768px)"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/starlightstudio-desktop-b9c2ae81.jpg 1x, /js_106_KoptevAnton/assets/starlightstudio-desktop@2x-850fb9ba.jpg 2x, /js_106_KoptevAnton/assets/starlightstudio-desktop@3x-499d518e.jpg 3x"
+            media="(min-width: 768px)"
+            type="image/jpg"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/starlightstudio-mobile-e7a1ecf4.webp 1x, /js_106_KoptevAnton/assets/starlightstudio-mobile@2x-636cd765.webp 2x, /js_106_KoptevAnton/assets/starlightstudio-mobile@3x-42b0fe3c.webp 3x"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/starlightstudio-mobile-d6913896.jpg 1x, /js_106_KoptevAnton/assets/starlightstudio-mobile@2x-2f756c92.jpg 2x, /js_106_KoptevAnton/assets/starlightstudio-mobile@3x-8e73cb97.jpg 3x"
+            type="image/jpg"
+          />
+          <img
+            src="/js_106_KoptevAnton/assets/starlightstudio-desktop-b9c2ae81.jpg"
+            alt="Starlight Studio"
+            class="covers-image"
+            data-name="starlightstudio"
+            loading="lazy"
+          />
+        </picture>
+      </li>
+    </ul>
+    <ul class="covers-line">
+      <li class="covers-item">
+        <picture>
+          <source
+            srcset="/js_106_KoptevAnton/assets/powerpulse-desktop-98edb330.webp 1x, /js_106_KoptevAnton/assets/powerpulse-desktop@2x-a51b31e3.webp 2x, /js_106_KoptevAnton/assets/powerpulse-desktop@3x-11a7f03b.webp 3x"
+            media="(min-width: 768px)"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/powerpulse-desktop-0e4bb97c.jpg 1x, /js_106_KoptevAnton/assets/powerpulse-desktop@2x-96fd2801.jpg 2x, /js_106_KoptevAnton/assets/powerpulse-desktop@3x-8752e3c7.jpg 3x"
+            media="(min-width: 768px)"
+            type="image/jpg"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/powerpulse-mobile-0a414c7e.webp 1x, /js_106_KoptevAnton/assets/powerpulse-mobile@2x-6cfa63c7.webp 2x, /js_106_KoptevAnton/assets/powerpulse-mobile@3x-cc56df27.webp 3x"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/powerpulse-mobile-c9e23a0b.jpg 1x, /js_106_KoptevAnton/assets/powerpulse-mobile@2x-dfa55654.jpg 2x, /js_106_KoptevAnton/assets/powerpulse-mobile@3x-0f29324b.jpg 3x"
+            type="image/jpg"
+          />
+          <img
+            src="/js_106_KoptevAnton/assets/powerpulse-desktop-0e4bb97c.jpg"
+            alt="Power Pulse"
+            class="covers-image"
+            data-name="powerpulse"
+            loading="lazy"
+          />
+        </picture>
+      </li>
+      <li class="covers-item">
+        <picture>
+          <source
+            srcset="/js_106_KoptevAnton/assets/mimino-desktop-39464041.webp 1x, /js_106_KoptevAnton/assets/mimino-desktop@2x-05227d32.webp 2x, /js_106_KoptevAnton/assets/mimino-desktop@3x-f58e2fe3.webp 3x"
+            media="(min-width: 768px)"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/mimino-desktop-7b858e39.jpg 1x, /js_106_KoptevAnton/assets/mimino-desktop@2x-32365d78.jpg 2x, /js_106_KoptevAnton/assets/mimino-desktop@3x-90909e3f.jpg 3x"
+            media="(min-width: 768px)"
+            type="image/jpg"
+          />
+          <source
+            srcset="data:image/webp;base64,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 1x, /js_106_KoptevAnton/assets/mimino-mobile@2x-2523263b.webp 2x, /js_106_KoptevAnton/assets/mimino-mobile@3x-c06d9bd9.webp 3x"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/mimino-mobile-d8c8d93e.jpg 1x, /js_106_KoptevAnton/assets/mimino-mobile@2x-71293e50.jpg 2x, /js_106_KoptevAnton/assets/mimino-mobile@3x-8d1b3a9d.jpg 3x"
+            type="image/jpg"
+          />
+          <img
+            src="/js_106_KoptevAnton/assets/mimino-desktop-7b858e39.jpg"
+            alt="Mimino"
+            class="covers-image"
+            data-name="mimino"
+            loading="lazy"
+          />
+        </picture>
+      </li>
+      <li class="covers-item">
+        <picture>
+          <source
+            srcset="/js_106_KoptevAnton/assets/ukrainian_artistry-desktop-54f663d8.webp 1x, /js_106_KoptevAnton/assets/ukrainian_artistry-desktop@2x-00a584a3.webp 2x, /js_106_KoptevAnton/assets/ukrainian_artistry-desktop@3x-ac398b0e.webp 3x"
+            media="(min-width: 768px)"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/ukrainian_artistry-desktop-af080df9.jpg 1x, /js_106_KoptevAnton/assets/ukrainian_artistry-desktop@2x-28cfde0a.jpg 2x, /js_106_KoptevAnton/assets/ukrainian_artistry-desktop@3x-3f44f721.jpg 3x"
+            media="(min-width: 768px)"
+            type="image/jpg"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/ukrainian_artistry-mobile-e95a8226.webp 1x, /js_106_KoptevAnton/assets/ukrainian_artistry-mobile@2x-da087218.webp 2x, /js_106_KoptevAnton/assets/ukrainian_artistry-mobile@3x-ceddb310.webp 3x"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/ukrainian_artistry-mobile-dbee090c.jpg 1x, /js_106_KoptevAnton/assets/ukrainian_artistry-mobile@2x-9e42eca2.jpg 2x, /js_106_KoptevAnton/assets/ukrainian_artistry-mobile@3x-f8a8c59c.jpg 3x"
+            type="image/jpg"
+          />
+          <img
+            src="/js_106_KoptevAnton/assets/ukrainian_artistry-desktop-af080df9.jpg"
+            alt="Ukrainian Artistry"
+            class="covers-image"
+            data-name="ukrainian_artistry"
+            loading="lazy"
+          />
+        </picture>
+      </li>
+      <li class="covers-item">
+        <picture>
+          <source
+            srcset="/js_106_KoptevAnton/assets/greenharvest-desktop-ad3137b3.webp 1x, /js_106_KoptevAnton/assets/greenharvest-desktop@2x-ef77b74a.webp 2x, /js_106_KoptevAnton/assets/greenharvest-desktop@3x-b187ab79.webp 3x"
+            media="(min-width: 768px)"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/greenharvest-desktop-63f408e7.jpg 1x, /js_106_KoptevAnton/assets/greenharvest-desktop@2x-237f722e.jpg 2x, /js_106_KoptevAnton/assets/greenharvest-desktop@3x-f07dc70c.jpg 3x"
+            media="(min-width: 768px)"
+            type="image/jpg"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/greenharvest-mobile-4c95dbff.webp 1x, /js_106_KoptevAnton/assets/greenharvest-mobile@2x-2713c69a.webp 2x, /js_106_KoptevAnton/assets/greenharvest-mobile@3x-71d6692e.webp 3x"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/greenharvest-mobile-ee1b8490.jpg 1x, /js_106_KoptevAnton/assets/greenharvest-mobile@2x-d7f35ed6.jpg 2x, /js_106_KoptevAnton/assets/greenharvest-mobile@3x-d9de7979.jpg 3x"
+            type="image/jpg"
+          />
+          <img
+            src="/js_106_KoptevAnton/assets/greenharvest-desktop-63f408e7.jpg"
+            alt="Green Harvest"
+            class="covers-image"
+            data-name="greenharvest"
+            loading="lazy"
+          />
+        </picture>
+      </li>
+      <li class="covers-item">
+        <picture>
+          <source
+            srcset="/js_106_KoptevAnton/assets/wallet-desktop-1d7b1a0d.webp 1x, /js_106_KoptevAnton/assets/wallet-desktop@2x-f6ae1ce9.webp 2x, /js_106_KoptevAnton/assets/wallet-desktop@3x-c725912a.webp 3x"
+            media="(min-width: 768px)"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/wallet-desktop-4fa4159e.jpg 1x, /js_106_KoptevAnton/assets/wallet-desktop@2x-9bdfed23.jpg 2x, /js_106_KoptevAnton/assets/wallet-desktop@3x-07c38e7e.jpg 3x"
+            media="(min-width: 768px)"
+            type="image/jpg"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/wallet-mobile-0e327201.webp 1x, /js_106_KoptevAnton/assets/wallet-mobile@2x-fd8abc39.webp 2x, /js_106_KoptevAnton/assets/wallet-mobile@3x-3170e571.webp 3x"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/wallet-mobile-31e16ca6.jpg 1x, /js_106_KoptevAnton/assets/wallet-mobile@2x-4c34ffd6.jpg 2x, /js_106_KoptevAnton/assets/wallet-mobile@3x-13e49dbb.jpg 3x"
+            type="image/jpg"
+          />
+          <img
+            src="/js_106_KoptevAnton/assets/wallet-desktop-4fa4159e.jpg"
+            alt="Wallet"
+            class="covers-image"
+            data-name="wallet"
+            loading="lazy"
+          />
+        </picture>
+      </li>
+    </ul>
+    <ul class="covers-line">
+      <li class="covers-item">
+        <picture>
+          <source
+            srcset="/js_106_KoptevAnton/assets/englishexcellence-desktop-a6f2c4e7.webp 1x, /js_106_KoptevAnton/assets/englishexcellence-desktop@2x-4046de45.webp 2x, /js_106_KoptevAnton/assets/englishexcellence-desktop@3x-9f6fecd6.webp 3x"
+            media="(min-width: 768px)"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/englishexcellence-desktop-55c2611d.jpg 1x, /js_106_KoptevAnton/assets/englishexcellence-desktop@2x-bdc0c5c2.jpg 2x, /js_106_KoptevAnton/assets/englishexcellence-desktop@3x-7afb9a53.jpg 3x"
+            media="(min-width: 768px)"
+            type="image/jpg"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/englishexcellence-mobile-043579d7.webp 1x, /js_106_KoptevAnton/assets/englishexcellence-mobile@2x-89c2db4a.webp 2x, /js_106_KoptevAnton/assets/englishexcellence-mobile@3x-d8d8cd94.webp 3x"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/englishexcellence-mobile-e741966b.jpg 1x, /js_106_KoptevAnton/assets/englishexcellence-mobile@2x-d2615c30.jpg 2x, /js_106_KoptevAnton/assets/englishexcellence-mobile@3x-c0fbb78a.jpg 3x"
+            type="image/jpg"
+          />
+          <img
+            src="/js_106_KoptevAnton/assets/englishexcellence-desktop-55c2611d.jpg"
+            alt="English Excellence"
+            class="covers-image"
+            data-name="englishexcellence"
+            loading="lazy"
+          />
+        </picture>
+      </li>
+      <li class="covers-item">
+        <picture>
+          <source
+            srcset="/js_106_KoptevAnton/assets/starlightstudio-desktop-5c1a4ba7.webp 1x, /js_106_KoptevAnton/assets/starlightstudio-desktop@2x-bf1bba80.webp 2x, /js_106_KoptevAnton/assets/starlightstudio-desktop@3x-3d927374.webp 3x"
+            media="(min-width: 768px)"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/starlightstudio-desktop-b9c2ae81.jpg 1x, /js_106_KoptevAnton/assets/starlightstudio-desktop@2x-850fb9ba.jpg 2x, /js_106_KoptevAnton/assets/starlightstudio-desktop@3x-499d518e.jpg 3x"
+            media="(min-width: 768px)"
+            type="image/jpg"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/starlightstudio-mobile-e7a1ecf4.webp 1x, /js_106_KoptevAnton/assets/starlightstudio-mobile@2x-636cd765.webp 2x, /js_106_KoptevAnton/assets/starlightstudio-mobile@3x-42b0fe3c.webp 3x"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/starlightstudio-mobile-d6913896.jpg 1x, /js_106_KoptevAnton/assets/starlightstudio-mobile@2x-2f756c92.jpg 2x, /js_106_KoptevAnton/assets/starlightstudio-mobile@3x-8e73cb97.jpg 3x"
+            type="image/jpg"
+          />
+          <img
+            src="/js_106_KoptevAnton/assets/starlightstudio-desktop-b9c2ae81.jpg"
+            alt="Starlight Studio"
+            class="covers-image"
+            data-name="starlightstudio"
+            loading="lazy"
+          />
+        </picture>
+      </li>
+      <li class="covers-item">
+        <picture>
+          <source
+            srcset="/js_106_KoptevAnton/assets/chego-jewelry-desktop-91f9cf80.webp 1x, /js_106_KoptevAnton/assets/chego-jewelry-desktop@2x-031cbfa1.webp 2x, /js_106_KoptevAnton/assets/chego-jewelry-desktop@3x-dc788892.webp 3x"
+            media="(min-width: 768px)"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/chego-jewelry-desktop-309165bd.jpg 1x, /js_106_KoptevAnton/assets/chego-jewelry-desktop@2x-02042292.jpg 2x, /js_106_KoptevAnton/assets/chego-jewelry-desktop@3x-7e1c1be5.jpg 3x"
+            media="(min-width: 768px)"
+            type="image/jpg"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/chego-jewelry-mobile-1a814c4d.webp 1x, /js_106_KoptevAnton/assets/chego-jewelry-mobile@2x-682811ca.webp 2x, /js_106_KoptevAnton/assets/chego-jewelry-mobile@3x-a189c9a1.webp 3x"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/chego-jewelry-mobile-7c8d95ee.jpg 1x, /js_106_KoptevAnton/assets/chego-jewelry-mobile@2x-f598caec.jpg 2x, /js_106_KoptevAnton/assets/chego-jewelry-mobile@3x-3f8c9fe3.jpg 3x"
+            type="image/jpg"
+          />
+          <img
+            src="/js_106_KoptevAnton/assets/chego-jewelry-desktop-309165bd.jpg"
+            alt="Chego Jewelry"
+            class="covers-image"
+            data-name="chego-jewelry"
+            loading="lazy"
+          />
+        </picture>
+      </li>
+      <li class="covers-item">
+        <picture>
+          <source
+            srcset="/js_106_KoptevAnton/assets/energyflow-desktop-68c84011.webp 1x, /js_106_KoptevAnton/assets/energyflow-desktop@2x-6148bcce.webp 2x, /js_106_KoptevAnton/assets/energyflow-desktop@3x-920ad753.webp 3x"
+            media="(min-width: 768px)"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/energyflow-desktop-a3d4d378.jpg 1x, /js_106_KoptevAnton/assets/energyflow-desktop@2x-dd0e9a19.jpg 2x, /js_106_KoptevAnton/assets/energyflow-desktop@3x-8e4add26.jpg 3x"
+            media="(min-width: 768px)"
+            type="image/jpg"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/energyflow-mobile-203462a6.webp 1x, /js_106_KoptevAnton/assets/energyflow-mobile@2x-46a40711.webp 2x, /js_106_KoptevAnton/assets/energyflow-mobile@3x-47a1ff6c.webp 3x"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/energyflow-mobile-4d97b6c5.jpg 1x, /js_106_KoptevAnton/assets/energyflow-mobile@2x-d4d9e0a8.jpg 2x, /js_106_KoptevAnton/assets/energyflow-mobile@3x-c76316c2.jpg 3x"
+            type="image/jpg"
+          />
+          <img
+            src="/js_106_KoptevAnton/assets/energyflow-desktop-a3d4d378.jpg"
+            alt="Energy Flow"
+            class="covers-image"
+            data-name="energyflow"
+            loading="lazy"
+          />
+        </picture>
+      </li>
+      <li class="covers-item">
+        <picture>
+          <source
+            srcset="/js_106_KoptevAnton/assets/fruitbox-desktop-da98793b.webp 1x, /js_106_KoptevAnton/assets/fruitbox-desktop@2x-61fe59e6.webp 2x, /js_106_KoptevAnton/assets/fruitbox-desktop@3x-8da2a985.webp 3x"
+            media="(min-width: 768px)"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/fruitbox-desktop-69a03579.jpg 1x, /js_106_KoptevAnton/assets/fruitbox-desktop@2x-8cea7391.jpg 2x, /js_106_KoptevAnton/assets/fruitbox-desktop@3x-dd5bad39.jpg 3x"
+            media="(min-width: 768px)"
+            type="image/jpg"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/fruitbox-mobile-b867a911.webp 1x, /js_106_KoptevAnton/assets/fruitbox-mobile@2x-8c5d0df0.webp 2x, /js_106_KoptevAnton/assets/fruitbox-mobile@3x-466c1a1f.webp 3x"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/fruitbox-mobile-63b154ab.jpg 1x, /js_106_KoptevAnton/assets/fruitbox-mobile@2x-f8221976.jpg 2x, /js_106_KoptevAnton/assets/fruitbox-mobile@3x-e37b869d.jpg 3x"
+            type="image/jpg"
+          />
+          <img
+            src="/js_106_KoptevAnton/assets/fruitbox-desktop-69a03579.jpg"
+            alt="Fruit Box"
+            class="covers-image"
+            data-name="fruitbox"
+            loading="lazy"
+          />
+        </picture>
+      </li>
+    </ul>
+    <ul class="covers-line">
+      <li class="covers-item">
+        <picture>
+          <source
+            srcset="/js_106_KoptevAnton/assets/ukrainian_artistry-desktop-54f663d8.webp 1x, /js_106_KoptevAnton/assets/ukrainian_artistry-desktop@2x-00a584a3.webp 2x, /js_106_KoptevAnton/assets/ukrainian_artistry-desktop@3x-ac398b0e.webp 3x"
+            media="(min-width: 768px)"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/ukrainian_artistry-desktop-af080df9.jpg 1x, /js_106_KoptevAnton/assets/ukrainian_artistry-desktop@2x-28cfde0a.jpg 2x, /js_106_KoptevAnton/assets/ukrainian_artistry-desktop@3x-3f44f721.jpg 3x"
+            media="(min-width: 768px)"
+            type="image/jpg"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/ukrainian_artistry-mobile-e95a8226.webp 1x, /js_106_KoptevAnton/assets/ukrainian_artistry-mobile@2x-da087218.webp 2x, /js_106_KoptevAnton/assets/ukrainian_artistry-mobile@3x-ceddb310.webp 3x"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/ukrainian_artistry-mobile-dbee090c.jpg 1x, /js_106_KoptevAnton/assets/ukrainian_artistry-mobile@2x-9e42eca2.jpg 2x, /js_106_KoptevAnton/assets/ukrainian_artistry-mobile@3x-f8a8c59c.jpg 3x"
+            type="image/jpg"
+          />
+          <img
+            src="/js_106_KoptevAnton/assets/ukrainian_artistry-desktop-af080df9.jpg"
+            alt="Ukrainian Artistry"
+            class="covers-image"
+            data-name="ukrainian_artistry"
+            loading="lazy"
+          />
+        </picture>
+      </li>
+      <li class="covers-item">
+        <picture>
+          <source
+            srcset="/js_106_KoptevAnton/assets/greenharvest-desktop-ad3137b3.webp 1x, /js_106_KoptevAnton/assets/greenharvest-desktop@2x-ef77b74a.webp 2x, /js_106_KoptevAnton/assets/greenharvest-desktop@3x-b187ab79.webp 3x"
+            media="(min-width: 768px)"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/greenharvest-desktop-63f408e7.jpg 1x, /js_106_KoptevAnton/assets/greenharvest-desktop@2x-237f722e.jpg 2x, /js_106_KoptevAnton/assets/greenharvest-desktop@3x-f07dc70c.jpg 3x"
+            media="(min-width: 768px)"
+            type="image/jpg"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/greenharvest-mobile-4c95dbff.webp 1x, /js_106_KoptevAnton/assets/greenharvest-mobile@2x-2713c69a.webp 2x, /js_106_KoptevAnton/assets/greenharvest-mobile@3x-71d6692e.webp 3x"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/greenharvest-mobile-ee1b8490.jpg 1x, /js_106_KoptevAnton/assets/greenharvest-mobile@2x-d7f35ed6.jpg 2x, /js_106_KoptevAnton/assets/greenharvest-mobile@3x-d9de7979.jpg 3x"
+            type="image/jpg"
+          />
+          <img
+            src="/js_106_KoptevAnton/assets/greenharvest-desktop-63f408e7.jpg"
+            alt="Green Harvest"
+            class="covers-image"
+            data-name="greenharvest"
+            loading="lazy"
+          />
+        </picture>
+      </li>
+      <li class="covers-item">
+        <picture>
+          <source
+            srcset="/js_106_KoptevAnton/assets/wallet-desktop-1d7b1a0d.webp 1x, /js_106_KoptevAnton/assets/wallet-desktop@2x-f6ae1ce9.webp 2x, /js_106_KoptevAnton/assets/wallet-desktop@3x-c725912a.webp 3x"
+            media="(min-width: 768px)"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/wallet-desktop-4fa4159e.jpg 1x, /js_106_KoptevAnton/assets/wallet-desktop@2x-9bdfed23.jpg 2x, /js_106_KoptevAnton/assets/wallet-desktop@3x-07c38e7e.jpg 3x"
+            media="(min-width: 768px)"
+            type="image/jpg"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/wallet-mobile-0e327201.webp 1x, /js_106_KoptevAnton/assets/wallet-mobile@2x-fd8abc39.webp 2x, /js_106_KoptevAnton/assets/wallet-mobile@3x-3170e571.webp 3x"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/wallet-mobile-31e16ca6.jpg 1x, /js_106_KoptevAnton/assets/wallet-mobile@2x-4c34ffd6.jpg 2x, /js_106_KoptevAnton/assets/wallet-mobile@3x-13e49dbb.jpg 3x"
+            type="image/jpg"
+          />
+          <img
+            src="/js_106_KoptevAnton/assets/wallet-desktop-4fa4159e.jpg"
+            alt="Wallet"
+            class="covers-image"
+            data-name="wallet"
+            loading="lazy"
+          />
+        </picture>
+      </li>
+      <li class="covers-item">
+        <picture>
+          <source
+            srcset="/js_106_KoptevAnton/assets/powerpulse-desktop-98edb330.webp 1x, /js_106_KoptevAnton/assets/powerpulse-desktop@2x-a51b31e3.webp 2x, /js_106_KoptevAnton/assets/powerpulse-desktop@3x-11a7f03b.webp 3x"
+            media="(min-width: 768px)"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/powerpulse-desktop-0e4bb97c.jpg 1x, /js_106_KoptevAnton/assets/powerpulse-desktop@2x-96fd2801.jpg 2x, /js_106_KoptevAnton/assets/powerpulse-desktop@3x-8752e3c7.jpg 3x"
+            media="(min-width: 768px)"
+            type="image/jpg"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/powerpulse-mobile-0a414c7e.webp 1x, /js_106_KoptevAnton/assets/powerpulse-mobile@2x-6cfa63c7.webp 2x, /js_106_KoptevAnton/assets/powerpulse-mobile@3x-cc56df27.webp 3x"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/powerpulse-mobile-c9e23a0b.jpg 1x, /js_106_KoptevAnton/assets/powerpulse-mobile@2x-dfa55654.jpg 2x, /js_106_KoptevAnton/assets/powerpulse-mobile@3x-0f29324b.jpg 3x"
+            type="image/jpg"
+          />
+          <img
+            src="/js_106_KoptevAnton/assets/powerpulse-desktop-0e4bb97c.jpg"
+            alt="Power Pulse"
+            class="covers-image"
+            data-name="powerpulse"
+            loading="lazy"
+          />
+        </picture>
+      </li>
+      <li class="covers-item">
+        <picture>
+          <source
+            srcset="/js_106_KoptevAnton/assets/mimino-desktop-39464041.webp 1x, /js_106_KoptevAnton/assets/mimino-desktop@2x-05227d32.webp 2x, /js_106_KoptevAnton/assets/mimino-desktop@3x-f58e2fe3.webp 3x"
+            media="(min-width: 768px)"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/mimino-desktop-7b858e39.jpg 1x, /js_106_KoptevAnton/assets/mimino-desktop@2x-32365d78.jpg 2x, /js_106_KoptevAnton/assets/mimino-desktop@3x-90909e3f.jpg 3x"
+            media="(min-width: 768px)"
+            type="image/jpg"
+          />
+          <source
+            srcset="data:image/webp;base64,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 1x, /js_106_KoptevAnton/assets/mimino-mobile@2x-2523263b.webp 2x, /js_106_KoptevAnton/assets/mimino-mobile@3x-c06d9bd9.webp 3x"
+            type="image/webp"
+          />
+          <source
+            srcset="/js_106_KoptevAnton/assets/mimino-mobile-d8c8d93e.jpg 1x, /js_106_KoptevAnton/assets/mimino-mobile@2x-71293e50.jpg 2x, /js_106_KoptevAnton/assets/mimino-mobile@3x-8d1b3a9d.jpg 3x"
+            type="image/jpg"
+          />
+          <img
+            src="/js_106_KoptevAnton/assets/mimino-desktop-7b858e39.jpg"
+            alt="Mimino"
+            class="covers-image"
+            data-name="mimino"
+            loading="lazy"
+          />
+        </picture>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="section-margin reviews-section" id="reviews">
+  <div class="container reviews-container">
+    <h2 class="reviews-title">REVIEWS</h2>
+    <div class="swiper swiper-reviews">
+      <ul class="swiper-wrapper reviews-swiper-wrapper"></ul>
+      <div class="reviews-swiper-btn-container reviews-btn-wrap">
+        <button
+          type="button"
+          class="reviews-prev-btn"
+          aria-label="previous button"
+        >
+          <svg class="reviews-button-icon" width="24px" height="24px">
+            <use href="/js_106_KoptevAnton/assets/icons-1527bb08.svg#arrow-left"></use>
+          </svg>
+        </button>
+        <button type="button" class="reviews-next-btn" aria-label="next button">
+          <svg class="reviews-button-icon" width="24px" height="24px">
+            <use href="/js_106_KoptevAnton/assets/icons-1527bb08.svg#arrow-right"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="work-together container" id="work-together">
+  <div class="footer-container">
+    <div class="footer-wrapper">
+      <div class="footer-logo-text">
+        <picture>
+          <source
+            srcset="data:image/webp;base64,UklGRpQCAABXRUJQVlA4IIgCAAAQEACdASpGAEYAPp1Cm0kqJSUiL1VacLATiWUAzYq8Fw2y9M7ftQddLnbtq2aIOf8ItCvxppCZbhDsMLGMhpHzbmGsVbWuadAacXjx3mpts8XAkUay5aUxkN10fliLPab/1e6UaLgjaf60Jiy2GXSfvGPU/ytsD1r2KDV89qAp0mTdqqqi1+90gAD+9ydklI5zYwsFtSG8T6RxPQrU1ui6zRQIgD4j+EGR+UCnGjcJiu3JWsoMf+ieKyrPSKKPwpMLT9Y0PlQxWcC4obTyK+upX768Dn7FiikXDmitP5FzmBZyPiKe5MQnk3twe/+h0RwM1lp2cP0sY3ag35tt4Og232eKjSapnRNTli7h5t+oORBrfUu04tpqKI2D/NthhzLhMh4Be+nlbWyrdQpdC6UniAGy3wbvkECCxH0e0lvwA49n1yAHQ1/Ge8aqiPW4jQIypgw9QMzPPhGag+Nni0JJw7VNuHzKQ5dVA5NBYzwQvOrUruv/TwgL2oxd93D0OoSeaasB7ZDwCsLOUH1krCXtIFHrRjB6nYQtaXtrrF6hspfVmhDA6Pxu2ZkmFQ0bJh8YxCehC9LirZdsY3rqJBpRWfIO0jqz9P6L2nS5iZo/T/GV+yuCbOioNa+uYAukGIdmizp8fTcSKT89crN2G9nipveQMzXIkzODJDu8QCcdj2rnzy1WNHdGdDgwQ9aMbQKEr3R/GyC4pd6zQEzwOHFqnFWgP+6V6PaDng+gkiOQOVhMJ1qJuA1X+oBCoZhPKRNjPuPryawOWSLcyD2UtZN9WCY1A9c4vLx1mvdbURCeI1nsXev/0J2x/IWomZrr0W5qEGEbadJaebo9KaDmg370bVI/n2KgAAA= 1x, data:image/webp;base64,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 2x, data:image/webp;base64,UklGRgYLAABXRUJQVlA4IPoKAABwQgCdASrSANIAPp1Mn0uoJ6ciJNT6WLATiWdu8B5JxRE7Vm2c24x8PfPmLnaVtVLv7mpOnW2eCKygClb61g9n1piuHWPEJ38pnkKsauHwOX+s6/MyiPXMBL1M4+pvjLXnhGYTEpQzjmjLNZmr+B/yaMDz/XsODMZsKSaUuMOhJ/vg859Wkqcrojf4wkB7wTIvEMYB/ttoiwqCKj8q1Z+uQ1NJRu/muZxerpcRf0p/uhZHq994e4GZ/RVn0WOZLJtFw8RGP/SrsPwg5vxZ0ytZaThjcQWEFGq5JDfZJ8wewOhcSp/R8ywl1Y8wEdMdyMmhotrQ5nSpGO3GmRZs+xzQgNnsL5s68ru8fIhCOy4/PoPJQZSLzaEdyi3MYp7zT22XhaTmX/OFj6NldbzHEhUEhX/5l0n2PUqYyCUjMpTqZ5SKLAMEDKrBvEo82/F3SB332GIujTzw7S9Rkgxq+AS4lBaPQAdZ5kel16M4KV6QiI5Zzhmm/CocfSJZKsuHuxXD9im8Ho1GFAwJY5zu3iL2rdMGKWsTXicfke09U3a5PKSl5RJ8OSjHGhteiRo/IpKeAfuK6fQMOS9euAL9k34+zNhiaxxgjNHEABxgIJzV6gYkkePR3sln0ujuZSBkyijCHcan25re/xvRCMnWsnKdy0uOxkw4eqegKsgq0NmAvtHjmEUV9Kum90FtZmhkMIhSyRqVbwr/pwdW12AA/vWfjAnaV+7eEajU3KmMxaz9JC9/ZaHx2BQy8YfLX79BOxV07566d/4jV08yrTs/5+Qcds+UOcJZswjzvjBp1Dyaahqw/WaSfqHg35edqlG/U18OVgOtSJ2NIJplOaA0RWLvOD5MPifSq8hODfqaIxxMSOWydf8TfvCTNP/4JWyYd8SHFc3dEV+Lmz9hDYcqyr1brTB+hSrA4PxjjQpKl1P1ndqwF2h+YSWp9RnVZB9wqClT/2hNy88Su1lKcr4YKe/Z6sUyp0MknmYzX3RxUusYvPDLR2ZU61EIJqY2q4LvJTZfaTadzEB6W74qOv6HsZhnJF+J1xZPL5iVyrbhh2Q8otAzmbkd6Z7FZ7WtTWiES6FBZ1YJn0bcdyzDxhB3QzVt28yYtyIUjfGLUPaM2RhMt6t0HKQ1Fhy3IsmJUMHJwLKpuzJ2BrdunkpIbadFgLSmNIjXH8n2syY4nGLqwTCE+UKXTTORJOyhZ7HpvZ40JRLBQyK6ZgljpSPdnoH1mrsCzWh8NsVVqr5vpekjb/mov4A0yw/rYARFo1jgva6j5BnaJ6GBmAusCaBJDpb8bVKqC067OhloARDSv9E3VUmA6OW8ldpR0bkE4JOEkD087ru73U/eKz6505uhOce7PFspsD45rNZrnLEEUdgggTEYbkXgA/JSpBIcfnfmBbfLP/+GwzGCsU3j71MwKOZdVTnvabots+scsffa/LS+vQPCrB2PV9RAO6VUrEgUykC46M3VnFuuVy0Mw113mDyBSPOFVfo+suQY0MMvwlw6K5GDiQUg5rU6MQRACYSUAaLNYP3QHPwTx2VVqdK3F+ZLd20VCUQSDaJKQjbYndY0nPRi+zr0wptqXuzQoYE//srbq55OTeJDUT8qVlBeCETf9qot43i1ioJGgus8zk5YNMuHpF95fyQrEJdZA5osAeegcmYn/n6Rks+6Kuz159Dl85sJyNCkaRDLm+mme43vMrFzEuMooDmcjGOZblmdvwO5bT6WKMMwIBT/n/pAgRp9n6eooI4owc16omqv6he27+xj2yCorKIiJQBxmF5XNt0wbjsnc+BjaDNtz/mc33RMpXqt/xG3Bg7sfZW4sqMjsO9NeqN15xY3ijxgDs6nlvlVVnXMoZn8+PWct9ThsOf315d17FINl55niRpG99OLjDJKOo/t6etGuy8rvbJdlWhDH3vdkNWvPT2vX+cS63MRN3a/JvwEaCT8s/u+IMuVSGrYXN962vzQUN+m/4zOvUthUVEIKOe2FOIO08oT1DgoNxYM9O9mVhXc4Kg3C5mHGQKvbyES2wfWvFdR4TOgVzIYTEUnoTS6QCGEoHtsqbuVKdfpNQIUs60Zv9snwmC8wKSMXdvGc5pKs5fTWtjQvvnn4Z5Q6TKdRht+E7jaJqgpaMbzRNoZTnmNnMfIS7TXFLBagd32MazERSP+5x6IqiAQDXeh3i2YFF1//Sk5NmHAqiQot0enuBc1mi8EL8BS4gFagINZ8cSpX3KVTFu6yKPNqGfNzdZ5VLL6OTcMwY8ksbaVyn+1deoY2zGUUwRig+QIIqRlHsTQBvWjaMxJXfDXhlZ27NVPlEN3qS+kBv11SDLDeoItdQ/6B2bjErg49gnk0ZNhxUZv7/EZAT3M+2Nvzh8ObPwc7/IYJullcgMSPFK5uR4adYwl2eh910B9qRCunlwpgs8HdCd45+SU5n95+gGfOr+RGfwgIVDsDkt9Hw5iPlAiDc2HKgGtCQUqmkP+fmEhyIziJv/WxNNMAHInBeWipeO0xrJw+m/JTjQeEw+/s42q1U0SAsSiP7YgaUIe99eIhYguCFPiKYj+xFYU79qm0iR4Zxk9eCHOCcLmR6C9MQeiQt88RgnSPo1EJ+UICJ8/vApIN26ldTHd0ZIz/Jo02ZZ862I6JS2fZlFN7XeFSww9jUfIdZf047E+A6AZZHpJsYqosXEIUtLojtYZDOjERdonP/wtES1kYSxvo5/9ji1ZWmazWDCeE8WTvZSHvPiPULy6RI/FZnw9qwkoIafRf36LRophl8h5ISNIflsWL3OXdG74HH90NK7rC7XVSxrAmnOL0LN+MHkv1FQjLL3aYsWMU0E2VMH7GdE9xYaZm3khhXh+P3tS1oZc1KjCQpvoJZc/dvQNB4l7s3MkM49BgvToxPM9gONI1x1gcdjlFFlzr3JWsRDSVQ6TX7sMIJ8Dzw2HPWrgjIFg0hUU26ElfxFzQ1jSfp6Q6qvXA5oyla7XJYYGbNEb06hkpoXkqoySxZ1vsarJi2/K7kjlz9tdittoOwVBHtSWaipMHGx/b24LiMDfkMd7pSW9uUgLHnDQuJ9RUkou7Nb94zJSglvsl5HCW0fO9ehICrMSY06l3BWjBcuhIcAYOdnLVEFXxtgal1LKMUIPcevqrsLpHduYan1RqpAiHazaAOTNfRlYp+ndHYrRY3a/qEJ2LfBZwyJmHQ39VpWPtB4ZK5baPh5D7IaZdlXmddGTOUTzk/S8y4M7UAWKZ4PJlZXIuxZlnPCECA6X8BUDJf6SymC0yTwO+9mZtVjns5hOGh5aKQBfnOw6MZC5JPwBf1ibNRk4/vUX8HMAC2Lh7q8c4LElBRp+cT3IifuSkt6pjjMJthv2v5V6k+o0Vs7++8qsGKwF0fr15hXSv0b4wlzUBhDapO8bAF5Tlik6WAlKT7MeSn29DmoQFMkNXZNWTWOgqzBQCHj9WPWKXgqJL9EUdFWPugUwkwZpfrGIldC5ybocKfQVFrdvjakk0VhGjwwBm8NgkFK3UwHwnTjkScZPgB+TZVKiajQ7VOmI99GgIjMTGTM/MM/nhcQ/Q5ujcdlLqk2j0hk3K/Z+qbUiI0ebITboixdCmgIhqvDk0pouZAFWPBuhQieRvX2og8Xg1GHDjbgDzHnqCt5SVoS+dzxjdkyrSwRC425E6YmxqxhUPJ8H7t4NpRPkKfIU+Qxljzk/v5+GPtY/LH5Y/wJLVswBqaKWBdFxlNNLaO3I7zQ1vDHHwwFfFdvPOkwCWkAAAA== 3x"
+            media="(min-width: 768px)"
+            type="image/webp"
+          />
+          <source
+            srcset="data:image/jpeg;base64,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 1x, /js_106_KoptevAnton/assets/image@2x-d6010c58.jpg 2x, /js_106_KoptevAnton/assets/image@3x-f4f74053.jpg 3x"
+            media="(min-width: 768px)"
+            type="image/jpg"
+          />
+          <source
+            srcset="data:image/webp;base64,UklGRpoBAABXRUJQVlA4II4BAABwCACdASosACwAPp1GoEwwC4nOAgAsBOJYwDDsAgR8LuopVSQQjJSztwd+8ZmIAmWMfecTF+x5Pvjn/pf1itKjQuB9Wm6y+L6NKOgAAP77pd6tZMrSACiPA5w8fVqLC1GALOFloUYD0J2VOXdTniOcK8YUIrP/QeFrHJ912F9A5i21vuSKPRHh477M2oWW/1NKOZsrmGmybLIANEpKrpcPNjog0kVOBO67lIKyiheX0CsnqiQ2vIhC7/1cbG9L+BX9nN4rkm4wNLHKvdnaHyT/AC7Kz3u06/qeRYTM0VpMX1YkHukwFp07Zxq4zMcI29OwhgFtrn1IHcNGvJFosxw8teXSpvbvRlw+dEqPK95lSnVAm6jNi+qXgXJUqIDZKy/08SXs3HkroLy2tJL5fVZVF3qTtN2Fn8y+kzYBETk8vRrqaYU4w5y2yEt3N0pLJwGgs6f/i/5cv1gPUnpM2A0R7/SHZx4j+ZJRVUgVHAOoWg9GZ4hLf5fherHUs7YzUzN5EOvXy/A51/6TsLAAAA== 1x, data:image/webp;base64,UklGRrADAABXRUJQVlA4IKQDAAAQEwCdASpYAFgAPp1EnUuoLCgqJzIMALATiWcAzHnmXFM85cuK1xqPlVhgmqKRP5ztWnXhtbgI/Hz88qW6YZsJcM8dHy899yjOhl/wYh4gUkvI9R1DU1PxQ2TL08LedTbgc/b0xtOGne/yrgxgznT60UDTK0A7zmwG/phKNJJ51cwlJdgX1ML6geGd5kVMyPGRkMd/6DGz4luQ9NBPvkPIgAD+9qan0TnjDvk8Y7k+JiyJ0eLRExtowGS4XF3SWyCHOrUPXvzgSyxtzwSaZb0nDue7aHbYVZ9kqvCEcYdTQci/0oe5w0qIrcJTYZGrP1StC3Rp32+AqprQmVBU27uro72oDfHgk7S4z+iiQDDQ8RfIRIf2oMotREq0uHoZDpMmsOL7IefLry1/Xiy8GAYGVmxGS6sRUGLcmfm0+YDXckltVHP9W3gmoDtySovu7BA3kE29TGu0cAtJkNsmXPxxQSOkTvM4edLLQOG+vdM/Mo5YXi8YbaQ6lRcd1lGvv/vmQ1a0YMcO7O8N9goRobQ2HPieN6GpcrMmPr926VL+ytoEEApEEvtPBrIJZumAhLe779PjGFkqsM+Ayf2fDCLJaT67F6FxW0xe86hzxuYHJiiv/xNxA6FMwfZmtVX7MwpeeLWoO073jiV4BjNe4OaXtYatYSLgQgmf2M3B39j2BrhsQmZX3J4h68v9eklVrLLQ4Wl5EMYcfKa0/FK9d2+xPttARHAQtLW3bTCU9DuQfFzfFvvsLZXqZ7p5C/hpz5hfSpJPi2wINo69ZkLL+Tp0nfkD8exg+QNDt9HI0AXePXfnHs+5r7Re5aM0gT0DI91v/9pYe8le12J1L5Ju8jQLEl/3rHaDFS3zvAWgVYa3AVCXQfgJ7g2fWj+TA5ULLishz6lB/tlEjurwGumcVZaz9KdfkE/Yu5RPHr3vfdCPtLnAwI1exr1Ik+dir1sAVrv1O1qerui4Jvzo02/X2pQOm7BZcQWIC9RoTV/skEpKz3yLun39iHVL+Rlf7szIOGKkKSBEcnlnGrHrAwsaMk0NaWlR65n6NMHDNSMPrWmibknhZxtC5kUOfCdcIafIdl+6U9sl/FsPojfUOiLxfLNIGef4uGrRzy7vuu9dUzoXTJIw0TNRhlT33/4gmxM17M6J0KLl+D4bKraTcb8xU+hyFmqlusacuNenapKjCbpJEk4fmxTYTlKKEm11VMjOk0+/FJijDIDQ/T7w8kHjnfFfIAAAAA== 2x, data:image/webp;base64,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 3x"
+            type="image/webp"
+          />
+          <source
+            srcset="data:image/jpeg;base64,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 1x, data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAIBAQEBAQIBAQECAgICAgQDAgICAgUEBAMEBgUGBgYFBgYGBwkIBgcJBwYGCAsICQoKCgoKBggLDAsKDAkKCgr/2wBDAQICAgICAgUDAwUKBwYHCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgr/wgARCABYAFgDAREAAhEBAxEB/8QAHQAAAAcBAQEAAAAAAAAAAAAAAgMEBgcICQUBCv/EABsBAAEFAQEAAAAAAAAAAAAAAAMAAQIEBQYH/9oADAMBAAIQAxAAAADWWFgDIhJEkjhKNKOg2ovLdzPAz+JeJP64EMJERTJBYxjxt+Qs7VdYCxJfzNZ+g5hyyh4k/rgApyoSqdj7eaWB1WmqhA2Xq513aOpnTcbbe/mASf8AcABSKg8e0NCDuW7GddLNgDA6ei4rGpfeeWuo1cpk/bgyoomKi/D62umF0TJ2Odrtj9TXvQyNcOj4SwromCe1sZMUQzgi8fc71qkVik/OdhWqzX1+77yM93KgnfYGCLlOuAlg849LuR7tjc118F73P6y9d52jk5cEA48mj1q2JqgEAwpj5wbNi+V7bTHSxdU7VMlICWJenlZlSG1Qm57E6biKdc6Bgs7/AIy0MEXc8Jvl+3sGJqxmWGwkjJQ8Tnh6khYqtxJ2Jp9Xs082MVhgOwatshnMlFS8FCbmsVdISSJD03//xAA0EAABAwMCBAUCBQQDAQAAAAABAgMEBQYRAAcIEiExCRMiQVEUYQoyQnGBEBYjkSShscH/2gAIAQEAAT8AQnSk9DpQGNPaqU6n0iC9VatNbjRmEczz7y+VCE/JOrn4rtkKCxIcRX5U9xhBUtmFTnCSB8FYSkj75xrb3jy4cNxaqaGi4p1FleZ5aU3BTVxmlq+A8ctE/bnzoFp5sPsOpWhaQpC0EEKB7EH3GgADrPf+g6nB0sHrpwdNb5bu2tsNtfWN1rxdKKfSIxdfCO6vYAa4ovGX3S4h70bp23NNqEC32J3I1S4ctQXLcyAhTh5TkZwQkDucEjWwlYhTth518VyVGm3xUpimnUGovOtLST6AUuJWG8kj08pIOeigM6uGlVCTasNy1LCt6kvfS81Qp9UZZAlPAcpLa2CO/YEox++tqfEg344Pr/n0KNPmVK0obiHZNq1dan0R2ysBbbDh9bBAIAySnKvfBSNmN3bL372tou7m308yKTXISZEYrGFtnJCm1j2WhYUhQ+UnQ99fOsdT/RY14v231V3E4VnaBBdXyLnYU2gFXOvy18nT/fft31wccHduXhWoFxXFEfp7lLnR5DMtvD3OWXm1OpKhjmKhkjpgEk9k6204Stt5m3jl2sURinS5dRelhMZlJW0kgpGenc4Cj99cUrM7bekOxbOguvOTUlioSZnMovgflSSCAAOpGPc/brxOW3X6lW3przcpUqS+UB1bmUFlbZCgSTkgHkOD+rJ7k68E2LdMTgiiwLopT8VTFwS0xS6ggOtFDSudGfYqKv5B0QeuinvrlPXSh1Ojrict1u5dkqvTTF81eWVM9D6VB1I5unwCdbH7MWtSFJt1hiOVuICirKfgdfnOrMtSHZ1vyKYaoh1rmKsY5Uoz7a4mtwOHqbRplIr93Ukz45HlR/rW/MCuuAU5zrc6bw+PS2XKnctObfcqJy3JeQEuhPXoCeoPNjXD3RLUouwtnwLJaZRTf7diuxQwAEkONhwkY+SonTjfLnShokY0tWc50Vd8HXFhQLqre3tNn2zUpTLFIuiBUK3HiPLbXLgtuEONEoIPLlSVkZwQ2QdcM/DDwy8U1iz9zN5uHC1JtaXWXWHXqtSWHJ60FCSHVuBpKmFknoEklOOqsk44rPDAt7bTbmTcPD9xF7pWTRmZcM1Kk0/cmqvxjFXMaTIUQ++5yoQyXVfbVgcANvSuJirbwb4XbGjbfUJha5Tj8VmKXzgJPK90cURgr5ubJKwkaubgW3M2+4nqRS967iraKZUKW1WadRKu+JIYbceXmE6CnC1NJXHCuYKOT+bVtcIWx1ocVFqXzsfQnbUepNCfqN1QrWqb8OBPDjAiw2ZUJtYjr5+aQ8F+WFlcQEn5cT6j9tLA6nXMcE6ccwdKe74OlBiWy5FktJcadSULQodFJPQjTUShNXFWodn1pp1FHdYp9ThjIMJ4MMvtt4B5ceS+2rtkhaRnpjVYiUi4qOuj3Qw0/FeYUl+M8gKbebIIKSDkEEdCDrdfbCxLI3Uqe5tSrC6dSqLE8u3aPPm/WMQ3vzfVMMzluR2FoITycrZCQCOU5xq793Lr4x+JW26BdtahXAG57MOKwiKjzejimkvqcQBh1aCFegIAyRgat2y7SsKmGi2dbkKmxirnW3DjJb8xeAkrXgZWohIyo5J+dKOAdL0HM5A0pKlDRirUMgE63L3J242TsqZuNu9fVMtuhQADKqtWlJZaQT2SCfzKPYJGVE9ADq4fxAu6W0/iI31v9ZNpmtbXXm/EYn2VOfDS1x4zCGGZjTgB8mUUIyrIUCCEK/IhY4XvFY4M+Lm12avtruc2iepA+st+qoEeoQj35XGiTn450FSCeytb2Hafda+7iu+4rDpNYZotNKIEmuZ5I6jnPk5H6ser5wM68Jm1bYr3Ghb9Tnbb0mJOTTKjPkuwGkBLLjPobAx2SlR/3jU10cxxorHXS1a3/wCITaLhY2kqu92+N3M0a36S3l19YKnH3DnkZaQOrjqyMBI+5OACRvH+LFqtNvd+DshwiRH7fYdwiddFfWJTyPZammEcrP7c7muJr8Tb4iG6j5g7Uz6BtnTyOjNvUtuW+8g+5kyvMP8ALaW9bt8Z/E7xVRl0ziC4grsu1KFl+BDrtefkMRpAyA4y2tZQg4UpPQAgL1IqjFdpjb618zzaQHkufmChqiXPXrFuNi6rUqb8KbEc5mJMdeFJOrW8WffmjWG9ZtRCJbrrRbXNcwouDk5RkH4yo68CLi88NK0rWdl3TxRNwt2KtFEOexf8RujNstqcDi2YjinnGXgt3rnzQ4vA/wAaNF5maymXCfQ8y6gKadaUFJWk9iCO41yOAkLGiCMg6/EWcYFX314qzw62vVz/AGttm2YjyEO5akVZYCpTqse7foYwexbc1U6R5cZJdWCt9OQojAJyemf+tTEBHmRFnIPqaJH5VjuP5H/zTT62CFoOCkhSD/vOlTENOmosdG3iC6n4UffVRQpaAtKsg/B15RCykA50pBCiNbUcV/FHsYhDWzHEVfFqtNn0R6BdMuK1/LbbgSR9iNeG5+JN342tvWHt5x6Vt69rLmupZN1CCgVWi/Dqg0kfWND9SVAu+4UeiDZl42bubZlN3E25uaFW6FWoaJdKq1OfDrMplYylaFDoRreGsVu+rirF9VuofWS6hOflVlfd0vvKLhd6+xJUf3I1Xag+7GWw2FraSnndQkeoKTkeYn4Vg9fkanzC8cqIKh2WPcDsddmuceysagLylcZZ9KxjUJ0hKmHO6TjUZoJqaucHATzHOs87qlaiRS8eROCR7a8hKuXr3z/Hqxr8OT4o87YHeONwRb13Os2He88ItN+Y96KHWHD6UAqPoZkn0Edg6UK91k1mpPSlF+M+pLsdBbbK8cr6Op8tYPfuSDqvw2Y1OZvC3pIW0lQ+thL6rhu59we7atVINGW4thOEKVzIHwD7az/jI+40z6PUPgHSlhD6Hx2UBnVTWliU46P1MJxk/uNNJ6En5Gqav/mZ5ugR10nmceWgfJ/9OoK5sKczOpkh1mQw6hxh5lRSptaTkKBHUHIGMddf/8QAKxEAAQQBAwMDBAIDAAAAAAAAAQACAxEEEiExBRBREyBBYXGBoQYyM7HB/9oACAECAQE/AAPY5zWNJJT+p4bODf2UXUcWX5r7rYi/aVwFkTtx4i8qV0k4PqGgpHR8NTnNvYrFyZYmjSbHhRyNljD28H20ur6hE131XrlzqtMwg+Iy3vf6T8gNdoWJKGhdMOrHPi/bS6i0Ow3fj/ahh1voqGL0onAlZjYpf68qCGQFYjWjGYB4CI7nt19kpwNTOGuBI8je/wDhXQZpH4xdrOxqrOymnnaSXaS2jy0c71+0zLORCImAWTz9PzsosuH03iJjQQauqP0P53TP8fcd3Na5pa7cFTYUeJOdHBA28VwnhrhTk/Jm9VwaNuNgFAJtYIu3UCfK4HcGh3Fk0Fk4LZ4q4d5WayXC2mbt5+EckF5o0D4XSSJc0AkkDz7GtLjQXobblemxvKYG/ATSCFNFHNGWPFgqT+MY7p9bHUPCxunR4by4clWKWrtjx1Hq89xsgQDYRVKkWg8hOjHI7OaA2kSiew90jNrCcU7jUEaXwhx7QqX/xAAxEQABAwIEBAQEBwEAAAAAAAABAAIDBBESITFBBRAgUQYyYXETM0KBFBUikaGxweH/2gAIAQMBAT8A6GNc82aLqLhVY/a3upeF1kIva/srHrpqd1TKGBU8UNN5Bc91HHKM3bpjXC4IVXSQTF2IWPdSRvieWO1HQDty4FgM72ncI07WR3AzTq9zJBDa4t/Kho8YxqupXbLirQ2pHew/3nbnwtxbXM9f+qaoLGXUshllBAVAZ4fNoqmWLBmqsuNXITrc/wBnq8Fz00XFnxzAXkjc1hOzzmDnubED1K8WUcEHEAzACCL3sO531PuqalpyAGYg4EaOda1xffspaNlKHSu+wsPtmBdfllSZWOllc4Ft7XBF8w4eoGSf8w9OyY5zHBzTYjMKn4lJXU4+L5gTn3vrf1+9lCXscSxUsVOGNuMT/c5ew2VeYooXNkaAGgkDtuh1EtaLlUXEXU85OrTsuHSw8Q+Q7Psdf2VKyanAcLYh3C8STyGic4gBxsDb35hOc1jSXHJfis8gvjyO0Ti86m4WEtKpp5qeUPiNiFF4wqRT4JGAu7qq4rNXsDHnIK1udVJjfhGyam6KyAvkmFA5IIPIGRTZdnch+olNCaENU4WzThuvoWyLigVE/wCk8mdimaLdFDykJouEUcmrQIOsv//Z 2x, /js_106_KoptevAnton/assets/image@3x-mobile-45186bf3.jpg 3x"
+            type="image/jpg"
+          />
+          <img
+            src="/js_106_KoptevAnton/assets/image@3x-f4f74053.jpg"
+            alt="Jefferson"
+            class="footer-img"
+            loading="lazy"
+          />
+        </picture>
+        <h2 class="footer-title">Let’s <span class="title-part">work</span></h2>
+        <h2 class="footer-title-elem">together</h2>
+      </div>
+      <form class="footer-form-feedback">
+        <div class="footer-wrapper-form">
+          <div class="input-wrapper">
+            <input
+              class="footer-input-email"
+              type="email"
+              name="user-email"
+              placeholder="clients@gmail.com"
+              pattern="^\w+(\.\w+)?@[a-zA-Z_]+?(\.[a-zA-Z]{2,3})+$"
+              required
+            />
+            <p class="wrongEmail"></p>
+          </div>
+          <div class="input-wrapper">
+            <input
+              class="footer-input-comment"
+              type="text"
+              name="user-comment"
+              placeholder="comments"
+              required
+            />
+            <p class="wrongComment"></p>
+          </div>
+        </div>
+        <button class="footer-btn" type="submit">Send</button>
+      </form>
+      <address class="footer-contact">
+        <ul class="footer-contact-list">
+          <li class="footer-contact-item footer-contact-item-email">
+            <a
+              class="footer-adress-email"
+              href="mailto:lloydjefferson@gmail.com"
+              aria-label="contact email"
+              >lloydjefferson@gmail.com</a
+            >
+          </li>
+          <li class="footer-contact-item footer-contact-item-tel">
+            <a
+              class="footer-adress-tel"
+              href="tel:+3801111111111"
+              aria-label="contact phone number"
+              >+380 11 1111 11 11</a
+            >
+          </li>
+        </ul>
+      </address>
+      <button type="button" class="btnToTop">
+        <svg class="toTopImg" width="30" height="30">
+          <use href="/js_106_KoptevAnton/assets/icons-1527bb08.svg#collapse"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</footer>
+
+    
+  </body>
+</html>
